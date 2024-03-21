@@ -1,0 +1,85 @@
+<!-- <!DOCTYPE html> 
+<html lang="en"> 
+ divinectorweb.com 
+<head>
+    <meta charset="UTF-8">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <canvas id="alarm-clock-animation" width="300" height="300"></canvas>   
+   <video autoplay loop muted> 
+     <source src="alarm-clock-animation.gif" type="video/gif"> 
+   
+  </video>
+  <div class="wrapper">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+</div>
+<div class="banner">
+	<div class="content">
+		<h2>Alarm <br>
+            <b>clock</b>
+        </h2>
+	</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+-->
+
+ 
+
+
+
+
+
+ <!DOCTYPE html>
+<!-- <html lang="en"> -->
+<head>
+    <meta charset="UTF-8">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="banner">
+    <div class="content">
+      <h2>Alarm <br>
+          <b>clock</b>
+      </h2>
+    </div>
+  </div>
+  <div class="clock">
+    <img src="/alarm.png" alt="" id="alarmImage">
+    <h1 id="Time_in_Html">00:00:00</h1>
+    <h2>Alarm at : <span id="setAlarmtime"></span></h2>
+    <form>
+      <input type="number" placeholder="Hours" id="hoursHtml">
+      <input type="number" placeholder="Minutes" id="minutesHtml">
+    </form>
+    <button onclick="setAlarm()">Set Alarm</button>
+    <audio src="/alarm.mp3" id="alarmSound"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
